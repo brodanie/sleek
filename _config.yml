@@ -46,6 +46,8 @@ service_worker: true
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge # or pygments or null
+paginate: 3
+paginate_path: /page:num/
 # theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 exclude:
   - README.md
@@ -62,8 +64,6 @@ exclude:
 
 include: ['_pages']
 permalink: /:title/
-paginate: 3
-paginate_path: /page:num/
 
 compress_html:
   clippings: all
