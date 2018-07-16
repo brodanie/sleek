@@ -47,7 +47,7 @@ service_worker: true
 markdown: kramdown
 highlighter: rouge # or pygments or null
 paginate: 3
-paginate_path: /page:num/
+paginate_path: '/page/:num/'
 # theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 exclude:
   - README.md
