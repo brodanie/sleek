@@ -62,6 +62,8 @@ exclude:
 
 include: ['_pages']
 permalink: /:title/
+paginate: 3
+paginate_path: /page:num/
 
 compress_html:
   clippings: all
@@ -69,3 +71,4 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
